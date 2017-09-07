@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/corners_white_bg"
+              android:minWidth="250dp"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="提      示"
+        android:textColor="#333333"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:text="看空间宽松的咖啡咖啡"
+        android:textColor="#666666"
+        android:textSize="14sp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="10dp"
+            android:text="确定"
+            android:textColor="@drawable/submit_text"
+            android:textSize="14sp"/>
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/line"/>
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="@drawable/eixt_text"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
